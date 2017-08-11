@@ -13,6 +13,10 @@
 
 - Babel-Preset-React - used to transform JS within React
 - Babel-Preset-ES2015 - used to translate ES2015 syntax into ES5
+- Webpack-Dev- Server - creates a build of the app according to the webpack configuration and runs it in the browser
+- Style loader - Adds CSS to the DOM by injecting a <style> tag (embeds CSS into bundle.js)
+- CSS loader - Parses the CSS in bundle.js and applies it to the DOM
+- React-Hot-Loader - Injects changes into the DOM without fully refreshing the page thus maintaining application state during development
 
 ### Babel configuration
 We need to instruct Babel to use the presets in our project. 

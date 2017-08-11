@@ -1,8 +1,10 @@
 import React from 'react';
 
+import Header from '../Header/Header';
+
 const App = (props) => (
     <div>
-        <h1>Webpack Configuration for React</h1>
+        <Header title="Webpack Configurationssss for Reacdt!" />
     </div>
 );
 
