@@ -16,6 +16,8 @@
 - Webpack-Dev- Server - creates a build of the app according to the webpack configuration and runs it in the browser
 - Style loader - Adds CSS to the DOM by injecting a <style> tag (embeds CSS into bundle.js)
 - CSS loader - Parses the CSS in bundle.js and applies it to the DOM
+- SASS loader - Loads a SASS/SCSS file and compiles it to CSS - has a peerDependency on Node-Sass
+- Node-Sass - Transforms SASS (SCSS) code into CSS 
 - React-Hot-Loader - Injects changes into the DOM without fully refreshing the page thus maintaining application state during development
 
 ### Babel configuration

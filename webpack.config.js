@@ -22,8 +22,8 @@ module.exports = {
       // Watches all CSS files and runs the loaders against them
       // The "!" facilitates the chaining/piping of loaders
       {
-        test: /\.css$/,
-        loader: "style-loader!css-loader"
+        test: /\.scss$/,
+        loader: ["style-loader", "css-loader", "sass-loader"]
       }
     ]
   }
